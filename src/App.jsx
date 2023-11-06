@@ -1,35 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+const App = () => (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1>Infiviz as an iFrame</h1>
+      <iframe width="1000" height="700" src="https://pg-indo.infiviz.me/app/store-explorer-v2?q=e5f1cf61-871b-4bf7-9413-ee0e96874255" allowFullScreen></iframe>
+      {/* https://2b54-106-51-84-218.ngrok-free.app */}
+      {/* <iframe width="700" height="700" src="https://2b54-106-51-84-218.ngrok-free.app"></iframe> */}
+      {/* <button onClick={() => document.cookie = "username=John Doe; SameSite=None; Secure"}>Set cookie</button> */}
     </>
-  )
-}
-
+)
 export default App
