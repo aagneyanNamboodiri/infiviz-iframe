@@ -9,7 +9,7 @@ const App = () => (
         style={{border: "0"}} 
         width="1000" 
         height="750" 
-        src="https://infiviz.me/" 
+        src="https://infiviz.in/" 
         allowFullScreen />
       {/* https://2b54-106-51-84-218.ngrok-free.app */}
       {/* <iframe width="700" height="700" src="https://2b54-106-51-84-218.ngrok-free.app"></iframe> */}
